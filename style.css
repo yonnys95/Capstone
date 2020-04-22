@@ -1,0 +1,71 @@
+
+.container {
+  margin: 0px;
+}
+
+/* navgivation styles */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  font-size: 1.1em;
+  margin-bottom: 80px;
+}
+
+.nav-link {
+  height: 20px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom: 0.5s;
+}
+
+.nav-link a {
+  color:black;
+  transition: color 0.5s;
+}
+/* navigation styles end */
+
+/* nav hover styles */
+.nav-link: hover {
+  border-bottom: 1px solid #ff0000;
+}
+
+.nav-link a: hover {
+  color: #ff0000;
+}
+/* nav hover styles end */
+
+/* logo styles */
+.logo-wrapper {
+  display: flex;
+  position: relative;
+
+}
+
+.sf_logo {
+  margin-left: 30%;
+  margin-right: 50px;
+}
+
+/* logo styles end*/
+
+.intro-title {
+  text-align: center;
+  font-size: 29px;
+  color: black;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+.body {
+  text-align: center;
+  font-size: 17px;
+  line-height: 2.5em;
+  margin: 50px;
+}
+
+.intro {
+  margin-bottom: 50px;
+}
